@@ -53,6 +53,9 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<script src="alg.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	</head>
 	<body>
@@ -60,7 +63,7 @@
 	<div class="gtco-loader"></div>
 	
 	<div id="page">
-
+	
 	
 	<div class="page-inner">
 
@@ -106,14 +109,31 @@
 		<div class="gtco-container">
 			<div class="row row-mt-15em">
 				<div class="col-md-7 mt-text text-left animate-box" data-animate-effect="fadeInUp">
-					<h1>My <strong>Blog</strong></h1>	
-					<h2>Get prepared to churn your neural networks.</h2>
+					<h1 id="ttt">My <strong>Blog</strong></h1>	
+					<h2 id="hhh">Get prepared to churn your neural networks.</h2>
 				</div>
 			</div>
 		</div>
 	</header>
-
+	
+	<div class="gtco-section gtco-gray-bg" >
+		<div class="row">
+			<div class="col-sm-4 animate-box"  id="imger"></div>
+			<div class="col-sm-7 animate-box" style="margin:1em" id="studmax"></div>
+			<div class="col-sm-1 animate-box"></div>
+		
+		</div>
+	
+	</div>
 	<div class="gtco-section gtco-gray-bg">
+		<center>
+		<div id="content"  class="container">
+		
+		
+		</div>
+		</center>
+	</div>
+		
 		<!--<div class="gtco-container">
 			<div class="row">
 
@@ -316,7 +336,7 @@
 		</div>
 	</div>
 -->	<br><br><br><center>
-	<span style="font-size:150%;padding:3em">No content available. Check me back soon :)</span><br><br><br></center>
+	<span style="font-size:150%;padding:3em"></span><br><br><br></center>
 		<footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
@@ -381,7 +401,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+	<div id="data" style="display:none"></div>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
