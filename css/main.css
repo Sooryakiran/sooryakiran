@@ -1,0 +1,206 @@
+:root {
+  --accent-color: #e9806e;
+  --footer-height: 15em;
+}
+
+.fa{
+	margin: 0 0.5em;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+ 	background-image: url('https://raw.githubusercontent.com/Sooryakiran/web_utilities/master/bg.png');
+
+	  /* Full height */
+	  height: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+
+}
+
+
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.right{
+  float: right;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+	background: rgba(0, 0, 0, 0);
+	
+}
+
+.on-dark{
+    color: rgb(255, 255, 255); /* IE */
+	color: rgba(255, 255, 255, 0.88);
+}
+
+a.on-dark{
+    color: rgb(255, 255, 255); /* IE */
+	color: rgba(255, 255, 255, 0.88);
+}
+
+.navbar.scrolled {
+    background: rgb(255, 255, 255); /* IE */
+    background: rgba(255, 255, 255, 0.88); /* NON-IE */
+}
+
+.accent{
+	color: var(--accent-color);
+	
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+}
+h5{
+	font-family: 'Montserrat', sans-serif;
+}
+h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.context{
+    background: rgb(255, 255, 255); /* IE */
+    background: rgba(255, 255, 255, 0.88); /* NON-IE */
+
+	padding: 10% 10% 10% 10%;
+    /*original*/
+    
+    width:100%;
+	height:auto;
+}
+
+.contain{
+    
+	display:block;
+    position:absolute;
+
+    /*original*/
+ 	margin: 0;
+    padding:0;
+    width: 100%;
+	height:auto;
+}
+
+
+.context-footer{
+    background: rgb(255, 255, 255); /* IE */
+    background: rgba(255, 255, 255, 0.00); /* NON-IE */
+	color: rgba(255, 255, 255, 0.80);
+	padding: 2em;
+	display:block;
+    position:absolute;
+
+	
+    /*original*/
+    
+    width:100%;
+	height:var(--footer-height);
+}
+
+
+
+
+.banner{
+    //background: rgb(255, 255, 255); /* IE */
+    color: rgba(255, 255, 255, 0.70); /* NON-IE */
+	
+	position: absolute;
+	margin: auto;
+  	width: 50%;
+	padding: 0.5em;
+	
+    /*original*/
+    top: 40%;
+	left: 50%;
+	margin-left: -25%;
+	border-radius: 0.5em;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('https://raw.githubusercontent.com/Sooryakiran/web_utilities/master/bg.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax.footer {
+  /* The image used */
+  background-image: url('https://raw.githubusercontent.com/Sooryakiran/web_utilities/master/bg.png');
+
+  /* Full height */
+  height: var(--footer-height); 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic{
+  	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 50%;
+	width: 60%;
+	margin: 20%;
+}
+
+.content{
+  height:auto;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
