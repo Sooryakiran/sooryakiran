@@ -204,3 +204,33 @@ a:active {
 
 }
 
+
+input[type=text] {
+  background-color: #fff;
+  color: grey;
+  padding:  0.3em 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  width: 400px;
+  max-width: 100%;
+}
+
+input[type=submit] {
+  background-color: var(--accent-color);
+  color: white;
+  padding:  0.3em 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  width: 100px;
+  max-width: 100%;
+}
+
+textarea{
+  background-color: #fff;
+  color: grey;
+  padding:  0.3em 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  width: 400px;
+  max-width: 100%;
+}

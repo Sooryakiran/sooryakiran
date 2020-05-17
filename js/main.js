@@ -16,3 +16,13 @@ if($('.navbar').length > 0){
         checkScroll();
     });
 }
+
+var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+	console.log("HEHHE")
+    if (this.readyState == 4 && this.status == 200) {
+      window.location.href = 'https://website.com/my-account';
+    }
+  };
+xhttp.open("POST", "demo_post.asp", true);
+xhttp.send();
