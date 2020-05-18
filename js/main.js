@@ -17,12 +17,24 @@ if($('.navbar').length > 0){
     });
 }
 
-var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-	console.log("HEHHE")
-    if (this.readyState == 4 && this.status == 200) {
-      window.location.href = 'https://website.com/my-account';
+
+function resizeIframe(obj) {
+	console.log(obj.contentWindow.document.documentElement.scrollHeight )
+	obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+}
+
+function AdjustIFrame(id) {
+    var frame = document.getElementById(id);
+    var maxW = frame.scrollWidth;
+    var minW = maxW;
+    var FrameH = 1000; //IFrame starting height
+    frame.style.height = FrameH + "px"
+
+    while ((minW == maxW) && FrameH<window.innerHeight) {
+        FrameH = FrameH + 1000; //Increment
+        frame.style.height = FrameH + "px";
+        minW = frame.scrollWidth;
     }
-  };
-xhttp.open("POST", "demo_post.asp", true);
-xhttp.send();
+	
+}
+

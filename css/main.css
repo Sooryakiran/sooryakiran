@@ -7,6 +7,12 @@
 	margin: 0 0.5em;
 }
 
+iframe{
+	border:none;
+	width:100%;
+	opacity: 0.88;
+}
+
 body, html {
   height: 100%;
 }
