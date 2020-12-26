@@ -64,3 +64,8 @@ Will you join us?
 Aaron Swartz
 
 July 2008, Eremo, Italy
+
+## Support the movement
+
+https://twitter.com/Sci_Hub
+
